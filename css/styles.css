@@ -1,0 +1,169 @@
+:root {
+    --primary-color: #262639;
+    --btn-color-hover: #2f3159;
+    --secondary-color: #f4e9dd;
+    --text-color: #1c1c23;
+    --secondary-text-color: #f4e9dd;
+}
+
+html {
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    background: var(--secondary-color);
+}
+
+.navbar {
+    background: var(--primary-color);
+    color: var(--secondary-text-color);
+    min-height: 80px;
+}
+
+.whatsapp-float{
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    background: #339a42;
+    color: #fff;
+}
+.whatsapp-float:hover,
+.whatsapp-float:focus{
+    box-shadow: none;
+    outline: none;
+}
+.whatsapp-float:active{
+    background: #1a7727;
+    color: #fff;
+}
+
+header {
+    background-image: url("/images/background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: 4rem;
+    position: relative;
+}
+.opacity-container{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+header h1 {
+    font-weight: 500;
+}
+header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.btn-contact {
+    color: white;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: none;
+    outline: none;
+}
+.btn-contact:hover,
+.btn-contact:focus,
+.btn-contact:active {
+    color: white;
+    background-color: var(--btn-color-hover);
+    border-color: var(--btn-color-hover);
+    box-shadow: none;
+    outline: none;
+}
+
+.about {
+    margin-top: 4rem;
+}
+.about h1{
+    font-weight: 500;
+}
+.about h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+.list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.list li i {
+    margin-right: 2rem;
+}
+.icon{
+    font-size: 1.5rem;
+    width: 0.5rem;
+}
+
+.how-we-work{
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+.card{
+    background-color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    padding-bottom: 1.5rem;
+}
+.card img{
+    max-width: 150px;
+    padding: 20px;
+    align-self: center;
+}
+
+.why-us h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}
+.customers{
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+.customers .card {
+    margin: 0 20px;
+}
+.carousel-inner .carousel-item {
+    transition: transform 0.6s ease;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    height: auto;
+}
+
+footer{
+    background-color: var(--text-color);
+}
+footer p{
+    color: var(--secondary-text-color);
+    font-size: .8rem;
+}
