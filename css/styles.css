@@ -160,6 +160,30 @@ header p {
     height: auto;
 }
 
+.accordion {
+    font-family: Poppins, sans-serif;
+}
+.accordion-button {
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.accordion-button:active,
+.accordion-button:focus {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+
+.accordion-item{
+    border: 1px solid var(--primary-color)
+}
+.accordion-collapse{
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
 footer{
     background-color: var(--text-color);
 }
