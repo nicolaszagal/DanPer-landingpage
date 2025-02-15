@@ -184,6 +184,7 @@ header p {
     background-color: var(--secondary-color);
     font-size: 1.2rem;
     font-weight: 500;
+    border-bottom: 1px solid var(--primary-color);
 }
 .accordion-button.collapsed{
     color: var(--primary-color);
@@ -192,6 +193,7 @@ header p {
 .accordion-button{
     background-color: var(--primary-color);
     color: var(--secondary-text-color);
+    border-bottom: none;
 }
 
 .accordion-button:hover,
