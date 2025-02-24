@@ -1,3 +1,4 @@
+/* Constantes */
 :root {
     --primary-color: #262639;
     --btn-color-hover: #2f3159;
@@ -6,22 +7,24 @@
     --secondary-text-color: #f4e9dd;
 }
 
+/* Estilos basicos de la web */
 html {
     font-size: 16px;
     font-family: poppins, sans-serif;
     color: var(--text-color);
 }
-
 body {
     background: var(--secondary-color);
 }
 
+/* Navbar */
 .navbar {
     background: var(--primary-color);
     color: var(--secondary-text-color);
     min-height: 80px;
 }
 
+/* Whatsapp button */
 .whatsapp-float{
     width: 60px;
     height: 60px;
@@ -41,6 +44,7 @@ body {
     color: #fff;
 }
 
+/* Home page */
 header {
     background-image: url("/images/background.jpg");
     height: 100vh;
@@ -91,6 +95,7 @@ header p {
     outline: none;
 }
 
+/* About the product */
 .about {
     margin-top: 4rem;
 }
@@ -118,6 +123,7 @@ header p {
     width: 0.5rem;
 }
 
+/* How we work */
 .how-we-work{
     background-color: var(--primary-color);
     color: var(--secondary-text-color);
@@ -134,11 +140,18 @@ header p {
     align-self: center;
 }
 
+/* Why us */
 .why-us h2 {
     font-size: 1.3rem;
     font-weight: 400;
 }
+@media (max-width: 1199px) {
+    .staff{
+        width: 200px;
+    }
+}
 
+/* Customers */
 .carousel-indicators{
     bottom: -50px;
 }
@@ -160,6 +173,53 @@ header p {
     height: auto;
 }
 
+/* FAQ */
+.accordion {
+    font-family: Poppins, sans-serif;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed){
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--primary-color);
+}
+.accordion-button.collapsed{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+.accordion-button{
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+    border-bottom: none;
+}
+
+.accordion-button:hover,
+.accordion-button:focus,
+.accordion-button:active,
+.accordion-button:not(.collapsed):hover,
+.accordion-button:not(.collapsed):focus,
+.accordion-button:not(.collapsed):active {
+    background-color: var(--primary-color);
+    color: var(--secondary-text-color);
+    box-shadow: none;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+.accordion-item{
+    border: 1px solid var(--primary-color)
+}
+.accordion-collapse{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Footer */
 footer{
     background-color: var(--text-color);
 }
