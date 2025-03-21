@@ -31,7 +31,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Frontend/DanPer-landingpage&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -78,6 +78,7 @@
       <workItem from="1740411414871" duration="372000" />
       <workItem from="1740532912585" duration="8000" />
       <workItem from="1741240010026" duration="882000" />
+      <workItem from="1742528252939" duration="183000" />
     </task>
     <servers />
   </component>
